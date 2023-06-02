@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/addScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/Theme.Reminder"
+        tools:context=".ListEvents.ListEvents">
+
+
+        <!--EVENT TITLE-->
+        <EditText
+            android:id="@+id/Title_Detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:hint="@string/Title_Detail"
+            android:textColorHint="#585858"
+            android:textSize="25sp"
+            android:focusable="false"
+            app:layout_constraintBottom_toTopOf="@+id/Description_Detail"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Hour_Detail"
+            android:autofillHints=""
+            android:inputType="textMultiLine" />
+
+        <!--EVENT DESCRIPTION-->
+        <EditText
+            android:id="@+id/Description_Detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:gravity="start"
+            android:hint="@string/Description_Detail"
+            android:minHeight="150dp"
+            android:textColorHint="#585858"
+            android:textSize="20sp"
+            android:focusable="false"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Title_Detail"
+            android:autofillHints=""
+            android:inputType="textMultiLine" />
+
+
+
+        <!--DATE SELECTED-->
+        <TextView
+            android:id="@+id/Date_Detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:hint="@string/Date_Detail"
+            android:textColorHint="#585858"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <!--TIME SELECTED-->
+        <TextView
+            android:id="@+id/Hour_Detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:hint="@string/Hour_Detail"
+            android:textColorHint="#585858"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Date_Detail" />
+
+        <!--EVENT STATUS-->
+        <TextView
+            android:id="@+id/Status_Detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/Status_Detail"
+            android:textSize="20sp"
+            app:layout_constraintStart_toEndOf="@+id/Event_finished_List"
+            app:layout_constraintTop_toBottomOf="@+id/Description_Detail" />
+
+        <!--NOTE FINISHED-->
+        <ImageView
+            android:id="@+id/Event_finished_List"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:background="@color/finished"
+            android:contentDescription="@string/Image_Event_finished_List"
+            android:visibility="gone"
+            app:layout_constraintStart_toEndOf="@+id/Event_not_finished_List"
+            app:layout_constraintTop_toBottomOf="@+id/Description_Detail" />
+
+        <!--NOTE NOT FINISHED-->
+        <ImageView
+            android:id="@+id/Event_not_finished_List"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:background="@color/not_finished"
+            android:contentDescription="@string/Image_Event_Not_finished_List"
+            android:visibility="gone"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Description_Detail" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

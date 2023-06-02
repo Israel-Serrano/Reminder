@@ -1,0 +1,95 @@
+<resources>
+    <string name="app_name">Reminder</string>
+    <string name="made_by">Made By</string>
+    <string name="todo">todo</string>
+    <string name="user_ok">user_ok</string>
+    <string name="user_warning">user_warning</string>
+
+    <!--Login-->
+    <string name="hint_Correo">Email</string>
+    <string name="hint_Pass">Password</string>
+    <string name="login">Login</string>
+    <string name="create_Account">Don\'t have an account yet? <u>Sign up now!</u></string>
+    <string name="signUp_With">or sign up with</string>
+    <string name="empty_field">Empty field</string>
+    <string name="invalid_email">Invalid email</string>
+    <string name="failed_authentication">Failed authentication</string>
+    <string name="create_New_Account">Create a new account</string>
+
+    <!---Add Event-->
+    <string name="Userid_User">User id</string>
+    <string name="User_mail">User e-mail</string>
+    <string name="Current_Date_time">Current date and time</string>
+    <string name="Title">Title</string>
+    <string name="Description">Description</string>
+    <string name="Calendar_btn">Calendar</string>
+    <string name="Date">00/00/0000</string>
+    <string name="Status">Not finished</string>
+    <string name="Hour_btn">Hour</string>
+    <string name="Hour">00:00</string>
+
+    <!--Update Event-->
+    <string name="Id_Event_Update">Event id</string>
+    <string name="Userid_User_Update">User id</string>
+    <string name="User_mail_Update">User e-mail</string>
+    <string name="Registration_Date_Update">Registration date</string>
+    <string name="Title_Update">Title</string>
+    <string name="Description_Update">Description</string>
+    <string name="Calendar_btn_Update">Calendar</string>
+    <string name="Date_Update">00/00/0000</string>
+    <string name="Status_Update">Not finished</string>
+    <string name="New_Status"> -- </string>
+    <string name="Hour_btn_Update">Hour</string>
+    <string name="Hour_Update">00:00</string>
+    <string name="Image_Event_finished">Image Finished</string>
+    <string name="Image_Event_Not_finished">Image Not Finished</string>
+
+    <!--Event Detail-->
+    <string name="Title_Detail">Title</string>
+    <string name="Description_Detail">Description</string>
+    <string name="Date_Detail">00/00/0000</string>
+    <string name="Status_Detail">Not finished</string>
+    <string name="Hour_Detail">00:00</string>
+    <string name="Image_Event_finished_List">Image Finished</string>
+    <string name="Image_Event_Not_finished_List">Image Not Finished</string>
+
+    <!--Menu-->
+    <string name="Add_Event">Add Event</string>
+    <string name="Add_btn">add</string>
+    <string name="Edit_btn">edit</string>
+    <string name="Logout">logout</string>
+    <string name="item_title">Title</string>
+    <string name="item_hour">Hour</string>
+    <string name="dialog_item_details">View event details</string>
+    <string name="dialog_item_edit">Edit event</string>
+    <string name="dialog_item_delete">Delete event</string>
+    <string name="event_deleted">Deleted event</string>
+
+    <!--Register-->
+    <string name="name">Complete name</string>
+    <string name="email">Email</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="user_registration">User registration</string>
+    <string name="i_have_account">I already have an account</string>
+    <string name="created_user">User created</string>
+    <string name="already_user_registered">User already registered</string>
+    <string name="invalid_password">Too short password</string>
+    <string name="not_match">Passwords do not match</string>
+    <string name="Update_Event">Update Event</string>
+    <string name="info_google">Google</string>
+    <string name="info_github">Facebook</string>
+    <string name="info_twitter">Twitter</string>
+    <string name="aditional_options">Aditional Options</string>
+    <string name="github_Login">GITHUB LOGIN</string>
+    <string name="no_events">No events</string>
+    <string name="dialog_login_yes">Yes</string>
+    <string name="dialog_login_no">No</string>
+
+    <!--Spinner-->
+    <string-array name="Event_Status">
+        <item>"Not finished</item>
+        <item>"Finished"</item>
+    </string-array>
+
+
+</resources>

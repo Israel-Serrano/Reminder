@@ -1,0 +1,21 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.Reminder" parent="Theme.MaterialComponents.DayNight">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/pink_dark</item>
+        <item name="colorPrimaryVariant">@color/blue_principal</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/pink_dark</item>
+        <item name="colorSecondaryVariant">@color/pink_principal</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/blue_dark</item>
+        <!-- textColor: darkTheme -->
+        <item name="android:textColor">@color/white</item>
+        <!-- Type of Font -->
+        <item name="android:fontFamily">@font/infinity_regular</item>
+
+
+    </style>
+</resources>
